@@ -2,20 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>7</key>
+	<key>4</key>
 	<array>
 		<integer>0</integer>
 		<integer>0</integer>
 	</array>
-	<key>8</key>
+	<key>5</key>
 	<array>
-		<integer>4</integer>
+		<integer>3</integer>
 		<integer>0</integer>
 	</array>
-	<key>9</key>
+	<key>69</key>
 	<array>
-		<integer>2</integer>
-		<integer>4</integer>
+		<integer>0</integer>
+		<integer>5</integer>
 	</array>
 </dict>
 </plist>

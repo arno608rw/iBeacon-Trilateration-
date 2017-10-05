@@ -44,7 +44,8 @@
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) [locationManager requestAlwaysAuthorization];
     
     // Estimote beacon UUID
-    NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"];
+    //NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"];
+    NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"FDA50693-A4E2-4FB1-AFCF-C6EB07647825"];
     beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:uuid identifier:@"se.mathijs.MiBeaconTrilateration"];
     
     // start ranging ID
@@ -107,7 +108,7 @@
         int X = [[coordinates objectAtIndex:0] intValue];
         int Y = [[coordinates objectAtIndex:1] intValue];
         
-        UILabel *beaconLabel = [[UILabel alloc] initWithFrame:CGRectMake((X * scaleFactor)-10, (maxY-(Y * scaleFactor))-10, 20, 20)];
+        UILabel *beaconLabel = [[UILabel alloc] initWithFrame:CGRectMake((X * scaleFactor)-10, (maxY-(Y * scaleFactor))-10, 30, 20)];
         [beaconLabel setText:key];
         
         [beaconLabel setBackgroundColor:[UIColor colorWithRed:(10/255.0) green:(140/255.0) blue:(220/255.0) alpha:1]];

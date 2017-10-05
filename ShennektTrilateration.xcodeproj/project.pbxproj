@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				D43806521909603C004414D7 /* AppDelegate.h */,
-				D438065819096044004414D7 /* Main.storyboard */,
 				D43806531909603C004414D7 /* AppDelegate.m */,
+				D438065819096044004414D7 /* Main.storyboard */,
 				D43806541909603C004414D7 /* ViewController.h */,
 				D43806551909603C004414D7 /* ViewController.m */,
 				E0AEA76418AD1F5300750AC1 /* MiBeaconTrilateration */,
@@ -164,6 +164,7 @@
 				ORGANIZATIONNAME = Mathijs;
 				TargetAttributes = {
 					D5D740B7188D1EA90080AFDA = {
+						DevelopmentTeam = 3RFTK4Z764;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -314,6 +315,7 @@
 		D5D740EB188D1EA90080AFDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 3RFTK4Z764;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiBeaconTrilaterationDemo/ShennektTrilateration-Prefix.pch";
 				INFOPLIST_FILE = "MiBeaconTrilaterationDemo/ShennektTrilateration-Info.plist";
@@ -327,6 +329,7 @@
 		D5D740EC188D1EA90080AFDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 3RFTK4Z764;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiBeaconTrilaterationDemo/ShennektTrilateration-Prefix.pch";
 				INFOPLIST_FILE = "MiBeaconTrilaterationDemo/ShennektTrilateration-Info.plist";
